@@ -1,0 +1,20 @@
+{
+    "name": "inowas/php-sensor-metrics-example",
+    "description": "A VERY simple PHP script to generate synthetic metrics",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ralf Junghanns",
+            "email": "ralf.junghanns@tu-dresden.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.3",
+        "openmetrics-php/exposition-text": "~0.3.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
